@@ -46,8 +46,10 @@ void loop() {
 		Otto.home();
 	} else if (dugme == 3125149440){
 		Otto.clearMouth();
-		Otto.walk(1,1000,1);
-		Otto.home();
+		Otto.putMouth(thunder);
+    for (int count=0 ; count<2 ; count++) {
+      Otto.walk(1,1000,1); // FORWARD
+    }
 	} else if (dugme == 3108437760){
 		Otto.home();
 		Otto.clearMouth();
