@@ -5,18 +5,18 @@
 //
 #define SOL_BACAK 2 // sol bacak pini, servo[0]
 #define SAG_BACAK 3 // sağ bacak pini, servo[1]
-#define SOL_AYAK 4	// sol ayak pini, servo[2]
-#define SAG_AYAK 5	// sağ ayak pini, servo[3]
-#define Buzzer 13		// buzzer pini
+#define SOL_AYAK  4 // sol ayak pini, servo[2]
+#define SAG_AYAK  5 // sağ ayak pini, servo[3]
+#define Buzzer   13 // buzzer pini
 
 // Kızılötesi almaç pini
 #define KO_ALMAC_PINI 10
 
 // 8x8 Led Matris Pinleri
 #define CLK A1 // Clock pin
-#define CS A2	 // Chip Select pin
+#define CS  A2 // Chip Select pin
 #define DIN A3 // Data In pin
-#define YON 0	 // 8x8 LED Matris Yönü  Top  = 1, Bottom = 2, Left = 3, Right = 4
+#define YON 0  // 8x8 LED Matris Yönü  Top  = 1, Bottom = 2, Left = 3, Right = 4
 
 void setup()
 {
