@@ -3,18 +3,20 @@
 
 [Türkçe OKUBENİ için tıklayınız](BENIOKU.md)
 
-Ottolay is short version of `Otto Halay` words. 
+Ottolay is short version of `Otto Halay` words.
 
 ## Requirements
 Software
-* Arduino
+* Arduino IDE and SDK
+* Visual Studio Code
+* VS Code Arduino Extension
 
 Libraries
 * OttoDIYLib
 * IRremote
 
 ### Remote Button Codes
-After update from version 2 to 3, `IRremte` library had big changes. Before, library prints the button codes in MSB order; but now it displays in LSB order. So we have two chances:
+After update from version 2 to 3, `IRremote` library had big changes. Before, library prints the button codes in MSB order; but now it displays in LSB order. So we have two chances:
 1. Reverse the bits and use old hardcoded values
 2. Use new MSB ordered values
 
